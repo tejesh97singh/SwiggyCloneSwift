@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OfferPageCell" id="gTV-IL-0wX" customClass="OfferPageCell" customModule="SwiggyClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="230"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="230"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I3v-db-xEg">
+                        <rect key="frame" x="5" y="5" width="300" height="220"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home1" translatesAutoresizingMaskIntoConstraints="NO" id="xf7-2Z-bZP">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="220"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xf7-2Z-bZP" firstAttribute="top" secondItem="I3v-db-xEg" secondAttribute="top" id="LUA-9h-81g"/>
+                            <constraint firstItem="xf7-2Z-bZP" firstAttribute="leading" secondItem="I3v-db-xEg" secondAttribute="leading" id="UFZ-sd-ZYK"/>
+                            <constraint firstAttribute="bottom" secondItem="xf7-2Z-bZP" secondAttribute="bottom" id="hCr-7W-5eO"/>
+                            <constraint firstAttribute="trailing" secondItem="xf7-2Z-bZP" secondAttribute="trailing" id="s6y-KX-dte"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="I3v-db-xEg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="MrU-Tk-3Sx"/>
+                <constraint firstItem="I3v-db-xEg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Opo-Gd-44g"/>
+                <constraint firstAttribute="bottom" secondItem="I3v-db-xEg" secondAttribute="bottom" constant="5" id="khH-y2-cpI"/>
+                <constraint firstAttribute="trailing" secondItem="I3v-db-xEg" secondAttribute="trailing" constant="5" id="mbA-9b-awP"/>
+            </constraints>
+            <size key="customSize" width="201" height="129"/>
+            <connections>
+                <outlet property="cellImage" destination="xf7-2Z-bZP" id="EkC-Gf-Cfq"/>
+                <outlet property="cellViewContainer" destination="I3v-db-xEg" id="4fP-OJ-Ti0"/>
+            </connections>
+            <point key="canvasLocation" x="194.20289855072465" y="93.75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home1" width="400" height="210"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

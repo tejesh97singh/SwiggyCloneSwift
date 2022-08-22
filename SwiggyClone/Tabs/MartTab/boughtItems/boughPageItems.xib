@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="boughPageItems" id="gTV-IL-0wX" customClass="boughPageItems" customModule="SwiggyClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbi-ed-W4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fortune" translatesAutoresizingMaskIntoConstraints="NO" id="VMx-CL-aN1">
+                                <rect key="frame" x="0.0" y="13" width="100" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="21T-bS-hCg"/>
+                                    <constraint firstAttribute="height" constant="75" id="r16-85-LWt"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="fyO-71-Iwt">
+                                <rect key="frame" x="4" y="90" width="146" height="51.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oil" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77b-6W-h3F">
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20.5" id="OMX-Y2-uRO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500 grams" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nq1-GN-xS3">
+                                        <rect key="frame" x="0.0" y="22.5" width="146" height="13"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13" id="ghd-Ng-eul"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Price : ₹100" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TDR-Ep-nJ9">
+                                        <rect key="frame" x="0.0" y="37.5" width="146" height="14"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="14" id="Y75-fZ-9z4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51.5" id="2Fn-GR-dID"/>
+                                    <constraint firstAttribute="trailing" secondItem="nq1-GN-xS3" secondAttribute="trailing" id="6ua-jQ-HWE"/>
+                                    <constraint firstAttribute="trailing" secondItem="TDR-Ep-nJ9" secondAttribute="trailing" id="G4q-7g-Hfy"/>
+                                    <constraint firstAttribute="trailing" secondItem="77b-6W-h3F" secondAttribute="trailing" id="KCX-wo-mAo"/>
+                                    <constraint firstItem="77b-6W-h3F" firstAttribute="top" secondItem="fyO-71-Iwt" secondAttribute="top" id="cNg-G0-t1r"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fyO-71-Iwt" firstAttribute="leading" secondItem="cbi-ed-W4Z" secondAttribute="leading" constant="4" id="8SL-rU-tNY"/>
+                            <constraint firstAttribute="trailing" secondItem="fyO-71-Iwt" secondAttribute="trailing" id="CiI-YH-dij"/>
+                            <constraint firstItem="fyO-71-Iwt" firstAttribute="top" secondItem="VMx-CL-aN1" secondAttribute="bottom" constant="2" id="bbA-qq-3qg"/>
+                            <constraint firstItem="VMx-CL-aN1" firstAttribute="centerX" secondItem="cbi-ed-W4Z" secondAttribute="centerX" constant="-25" id="ccn-wx-Kfc"/>
+                            <constraint firstAttribute="bottom" secondItem="fyO-71-Iwt" secondAttribute="bottom" constant="8.5" id="pjY-ee-M5z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="cbi-ed-W4Z" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3z2-QX-qcU"/>
+                <constraint firstAttribute="bottom" secondItem="cbi-ed-W4Z" secondAttribute="bottom" id="EJ3-d1-aW6"/>
+                <constraint firstItem="cbi-ed-W4Z" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="FSw-Qq-iZQ"/>
+                <constraint firstAttribute="trailing" secondItem="cbi-ed-W4Z" secondAttribute="trailing" id="POY-Iq-rU0"/>
+            </constraints>
+            <size key="customSize" width="153" height="213"/>
+            <connections>
+                <outlet property="imgView" destination="VMx-CL-aN1" id="Pdh-WW-xmh"/>
+                <outlet property="lblNames" destination="77b-6W-h3F" id="j3Z-LK-mUm"/>
+                <outlet property="lblPrices" destination="TDR-Ep-nJ9" id="jxq-cU-3Lp"/>
+                <outlet property="lblWeights" destination="nq1-GN-xS3" id="0Pr-Ww-NfP"/>
+            </connections>
+            <point key="canvasLocation" x="205.79710144927537" y="143.30357142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fortune" width="75" height="88"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

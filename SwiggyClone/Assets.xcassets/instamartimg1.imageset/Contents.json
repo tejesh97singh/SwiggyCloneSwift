@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "swiggy-instamart-offer-d.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "swiggy-instamart-offer-d@2x.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "swiggy-instamart-offer-d@3x.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

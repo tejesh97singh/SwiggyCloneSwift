@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FoodFirstCell" id="gTV-IL-0wX" customClass="FoodFirstCollView" customModule="SwiggyClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="218" height="136"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="218" height="136"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nIN-ds-CSY">
+                        <rect key="frame" x="0.0" y="0.0" width="218" height="136"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swiggyFood1" translatesAutoresizingMaskIntoConstraints="NO" id="o7H-EG-Mpq">
+                                <rect key="frame" x="0.0" y="0.0" width="218" height="136"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o7H-EG-Mpq" firstAttribute="leading" secondItem="nIN-ds-CSY" secondAttribute="leading" id="0yT-Gp-hm3"/>
+                            <constraint firstAttribute="trailing" secondItem="o7H-EG-Mpq" secondAttribute="trailing" id="5r5-0u-w1m"/>
+                            <constraint firstAttribute="bottom" secondItem="o7H-EG-Mpq" secondAttribute="bottom" id="XkT-Br-XP1"/>
+                            <constraint firstItem="o7H-EG-Mpq" firstAttribute="top" secondItem="nIN-ds-CSY" secondAttribute="top" id="lpt-pF-hgZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="nIN-ds-CSY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0NK-6V-5OK"/>
+                <constraint firstItem="nIN-ds-CSY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2m1-nS-amG"/>
+                <constraint firstAttribute="bottom" secondItem="nIN-ds-CSY" secondAttribute="bottom" id="3LP-eU-iEM"/>
+                <constraint firstAttribute="trailing" secondItem="nIN-ds-CSY" secondAttribute="trailing" id="eHh-ES-W58"/>
+            </constraints>
+            <size key="customSize" width="218" height="136"/>
+            <connections>
+                <outlet property="FoodImg" destination="o7H-EG-Mpq" id="dyi-O5-qjh"/>
+                <outlet property="ImgView" destination="nIN-ds-CSY" id="cTK-0Q-SWd"/>
+            </connections>
+            <point key="canvasLocation" x="253.62318840579712" y="111.16071428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="swiggyFood1" width="708" height="275"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
