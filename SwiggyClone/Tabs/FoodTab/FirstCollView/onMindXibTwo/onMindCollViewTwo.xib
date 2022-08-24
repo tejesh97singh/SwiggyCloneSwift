@@ -11,38 +11,71 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="onMindCellTwo" id="gTV-IL-0wX" customClass="onMindCollViewTwo" customModule="SwiggyClone" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="169" height="42"/>
+            <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="169" height="42"/>
+                <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kK7-FE-CaI">
-                        <rect key="frame" x="0.0" y="0.0" width="169" height="42"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kK7-FE-CaI" customClass="ForImageView" customModule="SwiggyClone" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MW-3Z-5oy">
-                                <rect key="frame" x="0.0" y="0.0" width="125" height="42"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adR-yA-3m0" userLabel="spaces">
+                                <rect key="frame" x="0.0" y="0.0" width="10" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="hIj-w4-OkB"/>
+                                    <constraint firstAttribute="height" constant="34" id="mP8-jX-TYk"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MW-3Z-5oy">
+                                <rect key="frame" x="10" y="10" width="65" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="7qg-3G-s2H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="aV3-jw-Q4V">
-                                <rect key="frame" x="133" y="0.0" width="36" height="42"/>
+                                <rect key="frame" x="75" y="10" width="35" height="14"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="36" id="pvB-VE-CFc"/>
+                                    <constraint firstAttribute="width" constant="35" id="Fss-aU-0rp"/>
                                 </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R13-GZ-irA" userLabel="spaces">
+                                <rect key="frame" x="110" y="0.0" width="5" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="08B-4Y-Rh1"/>
+                                    <constraint firstAttribute="height" constant="34" id="zbt-jN-ET6"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="6MW-3Z-5oy" secondAttribute="bottom" id="Eug-Sc-kgE"/>
-                            <constraint firstItem="6MW-3Z-5oy" firstAttribute="top" secondItem="kK7-FE-CaI" secondAttribute="top" id="QsT-nv-wW7"/>
-                            <constraint firstAttribute="trailing" secondItem="aV3-jw-Q4V" secondAttribute="trailing" id="Rl3-xu-FAi"/>
-                            <constraint firstAttribute="bottom" secondItem="aV3-jw-Q4V" secondAttribute="bottom" id="hv8-fG-b9I"/>
-                            <constraint firstItem="6MW-3Z-5oy" firstAttribute="leading" secondItem="kK7-FE-CaI" secondAttribute="leading" id="kS6-Pw-0Ij"/>
-                            <constraint firstItem="aV3-jw-Q4V" firstAttribute="leading" secondItem="6MW-3Z-5oy" secondAttribute="trailing" constant="8" symbolic="YES" id="orR-YW-o8e"/>
-                            <constraint firstItem="aV3-jw-Q4V" firstAttribute="top" secondItem="kK7-FE-CaI" secondAttribute="top" id="v4N-ad-IUd"/>
+                            <constraint firstItem="6MW-3Z-5oy" firstAttribute="leading" secondItem="adR-yA-3m0" secondAttribute="trailing" id="Abx-ox-5Tj"/>
+                            <constraint firstAttribute="bottom" secondItem="aV3-jw-Q4V" secondAttribute="bottom" constant="10" id="PpU-gj-7vZ"/>
+                            <constraint firstItem="R13-GZ-irA" firstAttribute="top" secondItem="kK7-FE-CaI" secondAttribute="top" id="Txx-4n-Qmh"/>
+                            <constraint firstItem="aV3-jw-Q4V" firstAttribute="leading" secondItem="6MW-3Z-5oy" secondAttribute="trailing" id="Vy5-JA-0Ug"/>
+                            <constraint firstItem="aV3-jw-Q4V" firstAttribute="top" secondItem="kK7-FE-CaI" secondAttribute="top" constant="10" id="ayN-xd-Xwc"/>
+                            <constraint firstItem="6MW-3Z-5oy" firstAttribute="top" secondItem="kK7-FE-CaI" secondAttribute="top" constant="10" id="gPn-AP-T6k"/>
+                            <constraint firstAttribute="trailing" secondItem="R13-GZ-irA" secondAttribute="trailing" id="gWF-lh-c9c"/>
+                            <constraint firstItem="adR-yA-3m0" firstAttribute="top" secondItem="kK7-FE-CaI" secondAttribute="top" id="keK-bt-ff5"/>
+                            <constraint firstItem="adR-yA-3m0" firstAttribute="leading" secondItem="kK7-FE-CaI" secondAttribute="leading" id="z45-gB-W0V"/>
+                            <constraint firstAttribute="bottom" secondItem="6MW-3Z-5oy" secondAttribute="bottom" constant="10" id="zYh-00-3IW"/>
+                            <constraint firstItem="6MW-3Z-5oy" firstAttribute="leading" secondItem="adR-yA-3m0" secondAttribute="trailing" id="zyB-mi-3fq"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
             </view>
@@ -53,12 +86,13 @@
                 <constraint firstAttribute="bottom" secondItem="kK7-FE-CaI" secondAttribute="bottom" id="Jmk-Wm-ucf"/>
                 <constraint firstItem="kK7-FE-CaI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mJW-OS-NyS"/>
             </constraints>
-            <size key="customSize" width="169" height="42"/>
+            <size key="customSize" width="115" height="34"/>
             <connections>
                 <outlet property="lblImgView" destination="aV3-jw-Q4V" id="wD8-sq-csA"/>
                 <outlet property="lblName" destination="6MW-3Z-5oy" id="M17-bb-iwm"/>
+                <outlet property="viewMain" destination="kK7-FE-CaI" id="Z1K-5g-qcq"/>
             </connections>
-            <point key="canvasLocation" x="218.11594202898553" y="79.6875"/>
+            <point key="canvasLocation" x="221.01449275362322" y="66.294642857142861"/>
         </collectionViewCell>
     </objects>
     <resources>

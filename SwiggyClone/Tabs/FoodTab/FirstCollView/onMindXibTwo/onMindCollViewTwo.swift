@@ -11,9 +11,10 @@ class onMindCollViewTwo: UICollectionViewCell {
 
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblImgView: UIImageView!
+    @IBOutlet weak var viewMain: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
     func updateValues(with TagDetails : ShortTags ){
         lblName.text = TagDetails.lblName

@@ -12,7 +12,7 @@ class FoodVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
     var foodMainView = FoodPageView()
     var arrFirstCollView = ["swiggyFood1","home1","swiggy1","swiggy2","instamartimg1"]
     var arrOnMindCollcetionTwo = ["","","","",""]
-    var arrOnMindCollcetionOne = ["","","","","",""]
+    var arrOnMindCollcetionOne = ["","","","",""]
     override func loadView() {
         view = foodMainView
     }
@@ -38,13 +38,14 @@ class FoodVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         else if (collectionView == foodMainView.onMindCollViewOne){
             return arrOnMindCollcetionOne.count
         }
+        
         return arrFirstCollView.count
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = foodMainView.firstCollectionView.dequeueReusableCell(withReuseIdentifier: "FoodFirstCell", for: indexPath) as! FoodFirstCollView
-        cell.FoodImg.image = UIImage(named: arrFirstCollView[indexPath.row])
-        
+                
         if (collectionView == foodMainView.onMindCollViewOne){
             let cellOne = foodMainView.onMindCollViewOne.dequeueReusableCell(withReuseIdentifier: "onMindFirstCell", for: indexPath) as! onMindCollViewOne
             cellOne.imgView.image = UIImage(named: CouponInfo[indexPath.row].ImgViewName)
@@ -57,6 +58,7 @@ class FoodVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
             cellTwo.updateValues(with: TagDetails[indexPath.row])
             return cellTwo
         }
+        cell.FoodImg.image = UIImage(named: arrFirstCollView[indexPath.row])
         return cell
     }
 
