@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FoodPageView" customModule="SwiggyClone" customModuleProvider="target">
             <connections>
                 <outlet property="containerView" destination="i5M-Pr-FkT" id="ISt-xF-qSZ"/>
+                <outlet property="exploreCollHeight" destination="eam-sI-YvS" id="fc0-32-ENz"/>
                 <outlet property="exploreCollView" destination="pQx-bH-jCd" id="E8Q-fX-xfq"/>
                 <outlet property="firstCollectionView" destination="Xkp-YU-pRl" id="6fL-lz-e04"/>
                 <outlet property="onMindCollViewOne" destination="GZM-gQ-zNA" id="0qO-c4-klK"/>
@@ -26,7 +27,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQE-ig-ohb">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="678"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXy-Wt-f69">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
@@ -81,7 +82,7 @@
                                         <constraint firstItem="DTY-Y3-LJs" firstAttribute="leading" secondItem="44b-tL-IyB" secondAttribute="trailing" constant="8" id="ysR-7J-3aZ"/>
                                     </constraints>
                                 </view>
-                                <searchBar contentMode="redraw" placeholder="Search for restaurant items and more" translatesAutoresizingMaskIntoConstraints="NO" id="8gU-fP-YOK">
+                                <searchBar contentMode="redraw" verticalCompressionResistancePriority="751" placeholder="Search for restaurant items and more" translatesAutoresizingMaskIntoConstraints="NO" id="8gU-fP-YOK">
                                     <rect key="frame" x="0.0" y="72" width="320" height="51"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
@@ -104,17 +105,20 @@
                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </collectionViewFlowLayout>
                                 </collectionView>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="177 restaurants to explore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4i-F0-v8l">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="177 restaurants to explore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4i-F0-v8l">
                                     <rect key="frame" x="0.0" y="499" width="320" height="20.5"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="pQx-bH-jCd">
-                                    <rect key="frame" x="0.0" y="528" width="320" height="72"/>
+                                    <rect key="frame" x="0.0" y="528" width="320" height="150"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wVV-ca-AV7">
-                                        <size key="itemSize" width="128" height="128"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="150" id="eam-sI-YvS"/>
+                                    </constraints>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aIk-yg-OG5">
+                                        <size key="itemSize" width="350" height="150"/>
                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -172,7 +176,6 @@
                                 <constraint firstItem="8gU-fP-YOK" firstAttribute="top" secondItem="KXy-Wt-f69" secondAttribute="bottom" constant="4" id="f5A-rO-PqN"/>
                                 <constraint firstAttribute="trailing" secondItem="KXy-Wt-f69" secondAttribute="trailing" id="fd8-Jk-5WF"/>
                                 <constraint firstItem="rk6-TN-VWO" firstAttribute="top" secondItem="Xkp-YU-pRl" secondAttribute="bottom" constant="8" id="nzP-vY-aM7"/>
-                                <constraint firstAttribute="height" constant="600" id="ou1-vp-mec"/>
                                 <constraint firstAttribute="trailing" secondItem="8gU-fP-YOK" secondAttribute="trailing" id="ses-RR-odl"/>
                                 <constraint firstItem="rk6-TN-VWO" firstAttribute="top" secondItem="Xkp-YU-pRl" secondAttribute="bottom" constant="8" id="t4n-U3-Yxz"/>
                                 <constraint firstItem="8gU-fP-YOK" firstAttribute="leading" secondItem="iQE-ig-ohb" secondAttribute="leading" id="vtg-PQ-QAw"/>

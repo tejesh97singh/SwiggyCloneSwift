@@ -15,6 +15,7 @@ class FoodPageView: UIView {
     @IBOutlet weak var onMindCollViewOne: UICollectionView!
     @IBOutlet weak var onMindCollViewTwo: UICollectionView!
     @IBOutlet weak var exploreCollView: UICollectionView!
+    @IBOutlet weak var exploreCollHeight: NSLayoutConstraint!
     override func awakeFromNib() {
         
     }

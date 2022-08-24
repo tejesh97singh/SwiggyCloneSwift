@@ -24,19 +24,35 @@ class FoodVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         self.foodMainView.onMindCollViewOne.dataSource = self
         self.foodMainView.onMindCollViewTwo.delegate =  self
         self.foodMainView.onMindCollViewTwo.dataSource = self
+        self.foodMainView.exploreCollView.delegate =  self
+        self.foodMainView.exploreCollView.dataSource = self
         setupUI()
     }
+    override func viewWillLayoutSubviews() {
+        self.foodMainView.exploreCollHeight?.constant = self.foodMainView.exploreCollView.contentSize.height
+        
+    }
+    private func reloadData() {
+        self.foodMainView.exploreCollView.reloadData()
+        self.foodMainView.exploreCollView.invalidateIntrinsicContentSize()
+        
+    }
+    
     func setupUI(){
         foodMainView.firstCollectionView.register(UINib(nibName: "FoodFirstCollView", bundle: nil), forCellWithReuseIdentifier: "FoodFirstCell")
         foodMainView.onMindCollViewOne.register(UINib(nibName: "onMindCollViewOne", bundle: nil), forCellWithReuseIdentifier: "onMindFirstCell")
         foodMainView.onMindCollViewTwo.register(UINib(nibName: "onMindCollViewTwo", bundle: nil), forCellWithReuseIdentifier: "onMindCellTwo")
+        foodMainView.exploreCollView.register(UINib(nibName: "restaurantCollViewCell", bundle: nil), forCellWithReuseIdentifier: "restaurantCell")
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if (collectionView == foodMainView.onMindCollViewTwo){
-            return arrOnMindCollcetionTwo.count
+            return 5
         }
         else if (collectionView == foodMainView.onMindCollViewOne){
-            return arrOnMindCollcetionOne.count
+            return 5
+        }
+        else if (collectionView ==  foodMainView.exploreCollView){
+            return 100
         }
         
         return arrFirstCollView.count
@@ -57,6 +73,12 @@ class FoodVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
             cellTwo.lblImgView.image = UIImage(named: TagDetails[indexPath.row].lblImage)
             cellTwo.updateValues(with: TagDetails[indexPath.row])
             return cellTwo
+        }
+        else if (collectionView == foodMainView.exploreCollView){
+            let cellExplore = foodMainView.exploreCollView.dequeueReusableCell(withReuseIdentifier: "restaurantCell", for: indexPath) as! restaurantCollViewCell
+//            cellExplore.lblImgView.image = UIImage(named: TagDetails[indexPath.row].lblImage)
+//            cellExplore.updateValues(with: TagDetails[indexPath.row])
+            return cellExplore
         }
         cell.FoodImg.image = UIImage(named: arrFirstCollView[indexPath.row])
         return cell
