@@ -24,13 +24,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajn-0M-rAD">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="488"/>
+                    <rect key="frame" x="0.0" y="0.0" width="317" height="488"/>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uv0-he-nJd">
-                    <rect key="frame" x="11" y="493" width="307" height="70"/>
+                    <rect key="frame" x="11" y="493" width="304" height="70"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oKJ-SV-Eyh">
-                            <rect key="frame" x="0.0" y="0.0" width="71" height="70"/>
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="icons8-home-64" translatesAutoresizingMaskIntoConstraints="NO" id="RAS-pR-kVK">
                                     <rect key="frame" x="9" y="4" width="50" height="44.5"/>
@@ -66,7 +66,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffr-gp-7ol">
-                            <rect key="frame" x="79" y="0.0" width="70.5" height="70"/>
+                            <rect key="frame" x="78" y="0.0" width="70" height="70"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1s-dI-Vdw">
                                     <rect key="frame" x="11" y="49.5" width="45" height="20.5"/>
@@ -102,7 +102,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tx-Sk-tCu">
-                            <rect key="frame" x="157.5" y="0.0" width="71" height="70"/>
+                            <rect key="frame" x="156" y="0.0" width="70" height="70"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lte-aw-dsa">
                                     <rect key="frame" x="15" y="49.5" width="45" height="20.5"/>
@@ -137,7 +137,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2oC-EP-dPa">
-                            <rect key="frame" x="236.5" y="0.0" width="70.5" height="70"/>
+                            <rect key="frame" x="234" y="0.0" width="70" height="70"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ky7-1o-Ltz">
                                     <rect key="frame" x="11" y="49.5" width="45" height="20.5"/>

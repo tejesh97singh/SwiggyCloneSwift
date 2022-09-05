@@ -33,53 +33,65 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABC, Tower Near abc apartment, C block Varanasi, 221106" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zD-R0-iOm">
-                                            <rect key="frame" x="8" y="34" width="258" height="27"/>
-                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
-                                            <nil key="textColor"/>
+                                            <rect key="frame" x="8" y="42.5" width="258" height="18.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DTY-Y3-LJs">
-                                            <rect key="frame" x="271" y="9" width="49" height="51"/>
-                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uZ7-cf-L8Q">
+                                            <rect key="frame" x="271" y="8.5" width="49" height="52"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DTY-Y3-LJs">
+                                                    <rect key="frame" x="0.0" y="0.5" width="49" height="51"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="49" id="Ogd-pf-iAQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="DTY-Y3-LJs" secondAttribute="bottom" id="XHD-u8-bEy"/>
+                                                <constraint firstItem="DTY-Y3-LJs" firstAttribute="leading" secondItem="uZ7-cf-L8Q" secondAttribute="leading" id="eyu-E2-mG3"/>
+                                                <constraint firstItem="DTY-Y3-LJs" firstAttribute="top" secondItem="uZ7-cf-L8Q" secondAttribute="top" id="qu0-Xh-8gH"/>
+                                                <constraint firstAttribute="trailing" secondItem="DTY-Y3-LJs" secondAttribute="trailing" id="wLh-ia-Pbn"/>
+                                                <constraint firstAttribute="height" constant="52" id="xEQ-Ps-4Nz"/>
+                                            </constraints>
+                                        </view>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="44b-tL-IyB">
-                                            <rect key="frame" x="4" y="4" width="259" height="21.5"/>
+                                            <rect key="frame" x="4" y="4" width="259" height="30"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-home-64" translatesAutoresizingMaskIntoConstraints="NO" id="fJe-Ca-K87">
-                                                    <rect key="frame" x="0.0" y="0.0" width="35" height="21.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21.5" id="3Q5-F6-2gg"/>
+                                                        <constraint firstAttribute="height" constant="30" id="3Q5-F6-2gg"/>
                                                         <constraint firstAttribute="width" constant="35" id="xgN-LR-01s"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8q-1l-6Mi">
-                                                    <rect key="frame" x="37" y="0.0" width="222" height="21.5"/>
+                                                    <rect key="frame" x="37" y="0.0" width="222" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21.5" id="7dU-uX-gs7"/>
+                                                        <constraint firstAttribute="height" constant="30" id="7dU-uX-gs7"/>
                                                         <constraint firstAttribute="width" constant="222" id="AIh-Ur-qTc"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="21.5" id="qEy-ox-8oK"/>
+                                                <constraint firstAttribute="height" constant="30" id="qEy-ox-8oK"/>
                                             </constraints>
                                         </stackView>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="uZ7-cf-L8Q" secondAttribute="trailing" id="30L-9j-mDN"/>
                                         <constraint firstAttribute="height" constant="68" id="6Kb-V3-nc9"/>
-                                        <constraint firstAttribute="trailing" secondItem="DTY-Y3-LJs" secondAttribute="trailing" id="J6z-qm-N5G"/>
                                         <constraint firstAttribute="bottom" secondItem="4zD-R0-iOm" secondAttribute="bottom" constant="7" id="Npn-B5-0Ph"/>
                                         <constraint firstItem="44b-tL-IyB" firstAttribute="leading" secondItem="KXy-Wt-f69" secondAttribute="leading" constant="4" id="OSl-gX-2Fy"/>
-                                        <constraint firstAttribute="bottom" secondItem="DTY-Y3-LJs" secondAttribute="bottom" constant="7.5" id="Oie-48-W9P"/>
                                         <constraint firstItem="4zD-R0-iOm" firstAttribute="top" secondItem="44b-tL-IyB" secondAttribute="bottom" constant="8.5" id="TRG-B4-cmS"/>
                                         <constraint firstItem="44b-tL-IyB" firstAttribute="top" secondItem="KXy-Wt-f69" secondAttribute="top" constant="4" id="blO-f6-azs"/>
-                                        <constraint firstItem="DTY-Y3-LJs" firstAttribute="top" secondItem="KXy-Wt-f69" secondAttribute="top" constant="8.5" id="gMC-QC-Idb"/>
+                                        <constraint firstItem="uZ7-cf-L8Q" firstAttribute="leading" secondItem="4zD-R0-iOm" secondAttribute="trailing" constant="5" id="dau-hU-KkC"/>
+                                        <constraint firstItem="uZ7-cf-L8Q" firstAttribute="top" secondItem="KXy-Wt-f69" secondAttribute="top" constant="8.5" id="jWe-sM-2yj"/>
                                         <constraint firstItem="4zD-R0-iOm" firstAttribute="leading" secondItem="KXy-Wt-f69" secondAttribute="leading" constant="8" id="oc0-C3-Vj0"/>
-                                        <constraint firstItem="DTY-Y3-LJs" firstAttribute="leading" secondItem="4zD-R0-iOm" secondAttribute="trailing" constant="5" id="uM0-DC-K8k"/>
-                                        <constraint firstItem="DTY-Y3-LJs" firstAttribute="leading" secondItem="44b-tL-IyB" secondAttribute="trailing" constant="8" id="ysR-7J-3aZ"/>
                                     </constraints>
                                 </view>
                                 <searchBar contentMode="redraw" verticalCompressionResistancePriority="751" placeholder="Search for restaurant items and more" translatesAutoresizingMaskIntoConstraints="NO" id="8gU-fP-YOK">

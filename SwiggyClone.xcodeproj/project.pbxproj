@@ -46,6 +46,8 @@
 		8F3E8173289152C40040CE84 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E815C289152C40040CE84 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
 		8F4102402884195B00438126 /* restaurantSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F41023E2884195B00438126 /* restaurantSectionCell.swift */; };
 		8F4102412884195B00438126 /* restaurantSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F41023F2884195B00438126 /* restaurantSectionCell.xib */; };
+		8F4FECE628BF366A00A57482 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4FECE428BF366A00A57482 /* VideoViewController.swift */; };
+		8F4FECE728BF366A00A57482 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F4FECE528BF366A00A57482 /* VideoViewController.xib */; };
 		8F5ED4B328858E8A00ABA5A0 /* couponsPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5ED4B128858E8A00ABA5A0 /* couponsPageCell.swift */; };
 		8F5ED4B428858E8A00ABA5A0 /* couponsPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5ED4B228858E8A00ABA5A0 /* couponsPageCell.xib */; };
 		8F6DAC7928893E3200C61827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6DAC7828893E3100C61827 /* Main.storyboard */; };
@@ -60,6 +62,11 @@
 		8F97C46928AE009500133E9E /* onMindTwoCollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C46828AE009500133E9E /* onMindTwoCollViewVC.swift */; };
 		8F97C46D28AE020600133E9E /* onMindCollViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F97C46B28AE020500133E9E /* onMindCollViewTwo.swift */; };
 		8F97C46E28AE020600133E9E /* onMindCollViewTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F97C46C28AE020500133E9E /* onMindCollViewTwo.xib */; };
+		8F98203B28B8C4AF001B70F3 /* imageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98203628B8C4AF001B70F3 /* imageExtension.swift */; };
+		8F98203C28B8C4AF001B70F3 /* BgImgBlurExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98203728B8C4AF001B70F3 /* BgImgBlurExtn.swift */; };
+		8F98203D28B8C4B0001B70F3 /* buttonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98203828B8C4AF001B70F3 /* buttonExtension.swift */; };
+		8F98203E28B8C4B0001B70F3 /* textFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98203928B8C4AF001B70F3 /* textFieldExtension.swift */; };
+		8F98203F28B8C4B0001B70F3 /* labelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98203A28B8C4AF001B70F3 /* labelExtension.swift */; };
 		8FAB47F528AB72EA00E0377F /* FoodFirstCollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB47F328AB72E900E0377F /* FoodFirstCollView.swift */; };
 		8FAB47F628AB72EA00E0377F /* FoodFirstCollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAB47F428AB72E900E0377F /* FoodFirstCollView.xib */; };
 		8FAB47FA28AB7B4500E0377F /* onMindCollViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB47F828AB7B4500E0377F /* onMindCollViewOne.swift */; };
@@ -67,11 +74,8 @@
 		8FAB47FD28AB7BB300E0377F /* onMindOneCollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB47FC28AB7BB300E0377F /* onMindOneCollVC.swift */; };
 		8FABF1F428B726DA00C2349E /* restaurantCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF1F228B726DA00C2349E /* restaurantCollViewCell.swift */; };
 		8FABF1F528B726DA00C2349E /* restaurantCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FABF1F328B726DA00C2349E /* restaurantCollViewCell.xib */; };
-		8FABF1FC28B72E1D00C2349E /* imageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF1F728B72E1C00C2349E /* imageExtension.swift */; };
-		8FABF1FD28B72E1D00C2349E /* BgImgBlurExtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF1F828B72E1C00C2349E /* BgImgBlurExtn.swift */; };
-		8FABF1FE28B72E1D00C2349E /* buttonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF1F928B72E1C00C2349E /* buttonExtension.swift */; };
-		8FABF1FF28B72E1D00C2349E /* textFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF1FA28B72E1C00C2349E /* textFieldExtension.swift */; };
-		8FABF20028B72E1D00C2349E /* labelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF1FB28B72E1C00C2349E /* labelExtension.swift */; };
+		8FAE026128B9F7C9006D5FAE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE026028B9F7C9006D5FAE /* ProfileVC.swift */; };
+		8FAE026328B9FBE6006D5FAE /* SideMenuFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE026228B9FBE6006D5FAE /* SideMenuFile.swift */; };
 		8FB368812886968F001449A5 /* boughPageItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3687F2886968F001449A5 /* boughPageItems.swift */; };
 		8FB368822886968F001449A5 /* boughPageItems.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB368802886968F001449A5 /* boughPageItems.xib */; };
 		8FB3688628869D7E001449A5 /* boughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3688528869D7E001449A5 /* boughVC.swift */; };
@@ -96,15 +100,16 @@
 		8FDB5450287D891800C5E705 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB544E287D891800C5E705 /* HomeController.swift */; };
 		8FDB5451287D891800C5E705 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDB544F287D891800C5E705 /* HomeController.xib */; };
 		8FDB5453287D8FD000C5E705 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB5452287D8FD000C5E705 /* HomeVC.swift */; };
-		8FEFB587288A74D500492B2D /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEFB586288A74D500492B2D /* ProfileVC.swift */; };
 		8FEFB58E288ABB4700492B2D /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEFB58C288ABB4700492B2D /* profileView.swift */; };
 		8FEFB58F288ABB4700492B2D /* profileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FEFB58D288ABB4700492B2D /* profileView.xib */; };
 		8FF107E7288D613E00020F52 /* EditPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF107E5288D613E00020F52 /* EditPageView.swift */; };
 		8FF107E8288D613E00020F52 /* EditPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF107E6288D613E00020F52 /* EditPageView.xib */; };
 		8FF107EA288D619B00020F52 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF107E9288D619B00020F52 /* EditVC.swift */; };
+		E6FC92A53C271030B5A9D73F /* Pods_SwiggyClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE09E311D598252EE85BB049 /* Pods_SwiggyClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82CA536B7B6D025888FA74EC /* Pods-SwiggyClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiggyClone.release.xcconfig"; path = "Target Support Files/Pods-SwiggyClone/Pods-SwiggyClone.release.xcconfig"; sourceTree = "<group>"; };
 		8F153CC628803DBC00DF40BF /* OfferPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferPageCell.swift; sourceTree = "<group>"; };
 		8F153CC728803DBC00DF40BF /* OfferPageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferPageCell.xib; sourceTree = "<group>"; };
 		8F2E59822887F2C900CC02F3 /* GenieOfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenieOfferCell.swift; sourceTree = "<group>"; };
@@ -146,6 +151,8 @@
 		8F3E815C289152C40040CE84 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
 		8F41023E2884195B00438126 /* restaurantSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantSectionCell.swift; sourceTree = "<group>"; };
 		8F41023F2884195B00438126 /* restaurantSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = restaurantSectionCell.xib; sourceTree = "<group>"; };
+		8F4FECE428BF366A00A57482 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		8F4FECE528BF366A00A57482 /* VideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
 		8F5ED4B128858E8A00ABA5A0 /* couponsPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = couponsPageCell.swift; sourceTree = "<group>"; };
 		8F5ED4B228858E8A00ABA5A0 /* couponsPageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = couponsPageCell.xib; sourceTree = "<group>"; };
 		8F6DAC7828893E3100C61827 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -162,6 +169,11 @@
 		8F97C46828AE009500133E9E /* onMindTwoCollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMindTwoCollViewVC.swift; sourceTree = "<group>"; };
 		8F97C46B28AE020500133E9E /* onMindCollViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMindCollViewTwo.swift; sourceTree = "<group>"; };
 		8F97C46C28AE020500133E9E /* onMindCollViewTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = onMindCollViewTwo.xib; sourceTree = "<group>"; };
+		8F98203628B8C4AF001B70F3 /* imageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageExtension.swift; sourceTree = "<group>"; };
+		8F98203728B8C4AF001B70F3 /* BgImgBlurExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BgImgBlurExtn.swift; sourceTree = "<group>"; };
+		8F98203828B8C4AF001B70F3 /* buttonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonExtension.swift; sourceTree = "<group>"; };
+		8F98203928B8C4AF001B70F3 /* textFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textFieldExtension.swift; sourceTree = "<group>"; };
+		8F98203A28B8C4AF001B70F3 /* labelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = labelExtension.swift; sourceTree = "<group>"; };
 		8FAB47F328AB72E900E0377F /* FoodFirstCollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFirstCollView.swift; sourceTree = "<group>"; };
 		8FAB47F428AB72E900E0377F /* FoodFirstCollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodFirstCollView.xib; sourceTree = "<group>"; };
 		8FAB47F828AB7B4500E0377F /* onMindCollViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMindCollViewOne.swift; sourceTree = "<group>"; };
@@ -169,11 +181,8 @@
 		8FAB47FC28AB7BB300E0377F /* onMindOneCollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onMindOneCollVC.swift; sourceTree = "<group>"; };
 		8FABF1F228B726DA00C2349E /* restaurantCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantCollViewCell.swift; sourceTree = "<group>"; };
 		8FABF1F328B726DA00C2349E /* restaurantCollViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = restaurantCollViewCell.xib; sourceTree = "<group>"; };
-		8FABF1F728B72E1C00C2349E /* imageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageExtension.swift; sourceTree = "<group>"; };
-		8FABF1F828B72E1C00C2349E /* BgImgBlurExtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BgImgBlurExtn.swift; sourceTree = "<group>"; };
-		8FABF1F928B72E1C00C2349E /* buttonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonExtension.swift; sourceTree = "<group>"; };
-		8FABF1FA28B72E1C00C2349E /* textFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textFieldExtension.swift; sourceTree = "<group>"; };
-		8FABF1FB28B72E1C00C2349E /* labelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = labelExtension.swift; sourceTree = "<group>"; };
+		8FAE026028B9F7C9006D5FAE /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		8FAE026228B9FBE6006D5FAE /* SideMenuFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuFile.swift; sourceTree = "<group>"; };
 		8FB3687F2886968F001449A5 /* boughPageItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boughPageItems.swift; sourceTree = "<group>"; };
 		8FB368802886968F001449A5 /* boughPageItems.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boughPageItems.xib; sourceTree = "<group>"; };
 		8FB3688528869D7E001449A5 /* boughVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boughVC.swift; sourceTree = "<group>"; };
@@ -200,12 +209,13 @@
 		8FDB544E287D891800C5E705 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		8FDB544F287D891800C5E705 /* HomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
 		8FDB5452287D8FD000C5E705 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		8FEFB586288A74D500492B2D /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		8FEFB58C288ABB4700492B2D /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
 		8FEFB58D288ABB4700492B2D /* profileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = profileView.xib; sourceTree = "<group>"; };
 		8FF107E5288D613E00020F52 /* EditPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageView.swift; sourceTree = "<group>"; };
 		8FF107E6288D613E00020F52 /* EditPageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditPageView.xib; sourceTree = "<group>"; };
 		8FF107E9288D619B00020F52 /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		BD6C676C20CE17BACDE9E4E6 /* Pods-SwiggyClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiggyClone.debug.xcconfig"; path = "Target Support Files/Pods-SwiggyClone/Pods-SwiggyClone.debug.xcconfig"; sourceTree = "<group>"; };
+		FE09E311D598252EE85BB049 /* Pods_SwiggyClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiggyClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,12 +223,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FC92A53C271030B5A9D73F /* Pods_SwiggyClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34D2860DF331860F4EBD7E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE09E311D598252EE85BB049 /* Pods_SwiggyClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F153CBB288028DA00DF40BF /* offerCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +346,15 @@
 			path = restaurantsCell;
 			sourceTree = "<group>";
 		};
+		8F4FECDF28BF216100A57482 /* videoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				8F4FECE428BF366A00A57482 /* VideoViewController.swift */,
+				8F4FECE528BF366A00A57482 /* VideoViewController.xib */,
+			);
+			path = videoPlayer;
+			sourceTree = "<group>";
+		};
 		8F5ED4AF28858DE700ABA5A0 /* couponsCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +406,18 @@
 			path = onMindXibTwo;
 			sourceTree = "<group>";
 		};
+		8F98203528B8C4AF001B70F3 /* FileHelperExtns */ = {
+			isa = PBXGroup;
+			children = (
+				8F98203628B8C4AF001B70F3 /* imageExtension.swift */,
+				8F98203728B8C4AF001B70F3 /* BgImgBlurExtn.swift */,
+				8F98203828B8C4AF001B70F3 /* buttonExtension.swift */,
+				8F98203928B8C4AF001B70F3 /* textFieldExtension.swift */,
+				8F98203A28B8C4AF001B70F3 /* labelExtension.swift */,
+			);
+			path = FileHelperExtns;
+			sourceTree = "<group>";
+		};
 		8FAB47F228AB725A00E0377F /* FirstCollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,18 +455,6 @@
 			);
 			name = Explorerestaurant;
 			path = FirstCollView;
-			sourceTree = "<group>";
-		};
-		8FABF1F628B72E1C00C2349E /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				8FABF1F728B72E1C00C2349E /* imageExtension.swift */,
-				8FABF1F828B72E1C00C2349E /* BgImgBlurExtn.swift */,
-				8FABF1F928B72E1C00C2349E /* buttonExtension.swift */,
-				8FABF1FA28B72E1C00C2349E /* textFieldExtension.swift */,
-				8FABF1FB28B72E1C00C2349E /* labelExtension.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		8FB3687E28869650001449A5 /* boughtItems */ = {
@@ -509,6 +537,8 @@
 			children = (
 				8FDB5438287D6C1D00C5E705 /* SwiggyClone */,
 				8FDB5437287D6C1D00C5E705 /* Products */,
+				ACCFEDDD6F77DB1802104311 /* Pods */,
+				34D2860DF331860F4EBD7E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -528,8 +558,8 @@
 				8FDB543D287D6C1D00C5E705 /* ViewController.swift */,
 				8FBE97B2287E8E4C0068F1F1 /* TabVC.swift */,
 				8F3E8140289152C40040CE84 /* IQKeyboardManagerSwift */,
-				8FABF1F628B72E1C00C2349E /* Extension */,
 				8F3E8128289140440040CE84 /* TextFieldEffects */,
+				8F98203528B8C4AF001B70F3 /* FileHelperExtns */,
 				8FDB544D287D87F600C5E705 /* DefaultView */,
 				8FBE97CE287EBD720068F1F1 /* Tabs */,
 				8F6DAC7828893E3100C61827 /* Main.storyboard */,
@@ -545,6 +575,8 @@
 			children = (
 				8FDB544E287D891800C5E705 /* HomeController.swift */,
 				8FBE97CF287F337A0068F1F1 /* HomeControllerVC.swift */,
+				8F4FECDF28BF216100A57482 /* videoPlayer */,
+				8FAE026228B9FBE6006D5FAE /* SideMenuFile.swift */,
 				8FDB544F287D891800C5E705 /* HomeController.xib */,
 			);
 			path = DefaultView;
@@ -553,11 +585,20 @@
 		8FF107E4288D60B400020F52 /* ProfileSection */ = {
 			isa = PBXGroup;
 			children = (
-				8FEFB586288A74D500492B2D /* ProfileVC.swift */,
+				8FAE026028B9F7C9006D5FAE /* ProfileVC.swift */,
 				8FEFB58C288ABB4700492B2D /* profileView.swift */,
 				8FEFB58D288ABB4700492B2D /* profileView.xib */,
 			);
 			path = ProfileSection;
+			sourceTree = "<group>";
+		};
+		ACCFEDDD6F77DB1802104311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD6C676C20CE17BACDE9E4E6 /* Pods-SwiggyClone.debug.xcconfig */,
+				82CA536B7B6D025888FA74EC /* Pods-SwiggyClone.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -567,9 +608,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FDB544A287D6C1F00C5E705 /* Build configuration list for PBXNativeTarget "SwiggyClone" */;
 			buildPhases = (
+				B810EC534BC8C41762CCBB7A /* [CP] Check Pods Manifest.lock */,
 				8FDB5432287D6C1D00C5E705 /* Sources */,
 				8FDB5433287D6C1D00C5E705 /* Frameworks */,
 				8FDB5434287D6C1D00C5E705 /* Resources */,
+				037C18C744BB927E90886149 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -626,6 +669,7 @@
 				8FABF1F528B726DA00C2349E /* restaurantCollViewCell.xib in Resources */,
 				8F97C46E28AE020600133E9E /* onMindCollViewTwo.xib in Resources */,
 				8F8B1B812888231400450D77 /* pickupDropCell.xib in Resources */,
+				8F4FECE728BF366A00A57482 /* VideoViewController.xib in Resources */,
 				8FBE97C7287EBCA20068F1F1 /* GeniePageView.xib in Resources */,
 				8FDB5443287D6C1F00C5E705 /* Assets.xcassets in Resources */,
 				8F6DAC7928893E3200C61827 /* Main.storyboard in Resources */,
@@ -643,19 +687,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		037C18C744BB927E90886149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiggyClone/Pods-SwiggyClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiggyClone/Pods-SwiggyClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiggyClone/Pods-SwiggyClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B810EC534BC8C41762CCBB7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiggyClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FDB5432287D6C1D00C5E705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FABF1FC28B72E1D00C2349E /* imageExtension.swift in Sources */,
+				8F98203B28B8C4AF001B70F3 /* imageExtension.swift in Sources */,
 				8F3E8136289140440040CE84 /* HoshiTextField.swift in Sources */,
 				8F3E8135289140440040CE84 /* YoshikoTextField.swift in Sources */,
 				8FBE97CB287EBD300068F1F1 /* MartVC.swift in Sources */,
 				8FBE97B3287E8E4C0068F1F1 /* TabVC.swift in Sources */,
-				8FABF20028B72E1D00C2349E /* labelExtension.swift in Sources */,
+				8F98203F28B8C4B0001B70F3 /* labelExtension.swift in Sources */,
 				8FBE97C0287EBC5B0068F1F1 /* MartPageView.swift in Sources */,
-				8FEFB587288A74D500492B2D /* ProfileVC.swift in Sources */,
 				8F3E8170289152C40040CE84 /* IQUITextFieldView+Additions.swift in Sources */,
 				8F153CC828803DBC00DF40BF /* OfferPageCell.swift in Sources */,
 				8F8B1B8E28888D4A00450D77 /* StringTrimExtension.swift in Sources */,
@@ -672,10 +757,11 @@
 				8F3E8171289152C40040CE84 /* IQUIView+Hierarchy.swift in Sources */,
 				8FB368812886968F001449A5 /* boughPageItems.swift in Sources */,
 				8F3E815E289152C40040CE84 /* IQKeyboardManager+Internal.swift in Sources */,
+				8FAE026328B9FBE6006D5FAE /* SideMenuFile.swift in Sources */,
 				8F4102402884195B00438126 /* restaurantSectionCell.swift in Sources */,
-				8FABF1FD28B72E1D00C2349E /* BgImgBlurExtn.swift in Sources */,
+				8F98203C28B8C4AF001B70F3 /* BgImgBlurExtn.swift in Sources */,
 				8F8B1B802888231400450D77 /* pickupDropCell.swift in Sources */,
-				8FABF1FE28B72E1D00C2349E /* buttonExtension.swift in Sources */,
+				8F98203D28B8C4B0001B70F3 /* buttonExtension.swift in Sources */,
 				8F5ED4B328858E8A00ABA5A0 /* couponsPageCell.swift in Sources */,
 				8FBE97CD287EBD4C0068F1F1 /* GenieVC.swift in Sources */,
 				8FEFB58E288ABB4700492B2D /* profileView.swift in Sources */,
@@ -691,6 +777,7 @@
 				8F3E813D289140440040CE84 /* AkiraTextField.swift in Sources */,
 				8F3E8172289152C40040CE84 /* IQNSArray+Sort.swift in Sources */,
 				8F3E813A289140440040CE84 /* JiroTextField.swift in Sources */,
+				8F4FECE628BF366A00A57482 /* VideoViewController.swift in Sources */,
 				8F3E815F289152C40040CE84 /* IQPreviousNextView.swift in Sources */,
 				8F3E8163289152C40040CE84 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				8F3E8161289152C40040CE84 /* IQBarButtonItem.swift in Sources */,
@@ -704,11 +791,12 @@
 				8F3E8165289152C40040CE84 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
 				8FAB47F528AB72EA00E0377F /* FoodFirstCollView.swift in Sources */,
 				8F3E816B289152C40040CE84 /* IQKeyboardManager+Debug.swift in Sources */,
-				8FABF1FF28B72E1D00C2349E /* textFieldExtension.swift in Sources */,
+				8F98203E28B8C4B0001B70F3 /* textFieldExtension.swift in Sources */,
 				8F3E8162289152C40040CE84 /* IQToolbar.swift in Sources */,
 				8FBE97BD287EBC1C0068F1F1 /* FoodVC.swift in Sources */,
 				8FF107E7288D613E00020F52 /* EditPageView.swift in Sources */,
 				8F8B1B8D28888D4A00450D77 /* RegexParser.swift in Sources */,
+				8FAE026128B9F7C9006D5FAE /* ProfileVC.swift in Sources */,
 				8F3E8169289152C40040CE84 /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				8F97C46928AE009500133E9E /* onMindTwoCollViewVC.swift in Sources */,
 				8F3E813C289140440040CE84 /* KaedeTextField.swift in Sources */,
@@ -856,6 +944,7 @@
 		};
 		8FDB544B287D6C1F00C5E705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6C676C20CE17BACDE9E4E6 /* Pods-SwiggyClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -865,6 +954,7 @@
 				INFOPLIST_FILE = SwiggyClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -882,6 +972,7 @@
 		};
 		8FDB544C287D6C1F00C5E705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CA536B7B6D025888FA74EC /* Pods-SwiggyClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -891,6 +982,7 @@
 				INFOPLIST_FILE = SwiggyClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
