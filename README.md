@@ -8,6 +8,8 @@ What is included :
 3. IQKeyBoard Manager
 4. Collection view size according to content view.
 5. Swift Language is used.
+6. Side Menu
+7. Video Player using AVPlayer without using AVPlayerViewController
 
 # How to Run in your System
 
@@ -47,7 +49,7 @@ To implement this extension to your project:
 ![Screenshot 2022-08-26 at 9 51 11 AM](https://user-images.githubusercontent.com/97300474/186821479-4a2c8780-a72f-4af6-8ea5-3657fef61aad.png)
 
 ```bash
-8. Now run the project.
+8. Now install the pod -> pod 'SideMenu' and Now run the project.
  ```
 # Demo 
 
